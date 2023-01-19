@@ -6,8 +6,40 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Components</title>
+    <script src="tooltip.js"></script>
+    <script src="confirm-link.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        :root {
+            --color-primary: #a4e6fc;
+            font-family: sans-serif;
+        }
+
+    </style>
 </head>
 <body>
-
+<p>
+    <umxr-tooltip class="important" text="Web Components is a set of standarts."><span
+            class="highlight">Web Components</span></umxr-tooltip>
+    are awesome
+</p>
+<umxr-tooltip></umxr-tooltip>
+<a is="umxr-confirm" href="https://google.com">Google</a>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
